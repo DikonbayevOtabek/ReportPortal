@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="DashboardTest" verbose="1" >
+    <listeners>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
+    </listeners>
+    <test name="DashboardTest"   >
+        <classes>
+            <class name="reportportal.tests.ui.DashboardTest" />
+        </classes>
+    </test>
+</suite>
